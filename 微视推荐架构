@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T03:06:53.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" version="17.4.0" etag="F05RKrJlgvjr7WYB9Qr7" type="github"><diagram id="DISqWxdIBwJ-E7189bsI">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-14T03:21:17.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="9FZddYlo6paRJF-7XdMk" version="17.4.0" type="github">
+  <diagram id="DISqWxdIBwJ-E7189bsI" name="Page-1">
+    <mxGraphModel dx="1830" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rC7Ir_l8Gd3Pa-SIc-JI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rC7Ir_l8Gd3Pa-SIc-JI-1" target="rC7Ir_l8Gd3Pa-SIc-JI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rC7Ir_l8Gd3Pa-SIc-JI-1" value="召回中控" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rC7Ir_l8Gd3Pa-SIc-JI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rC7Ir_l8Gd3Pa-SIc-JI-2" target="rC7Ir_l8Gd3Pa-SIc-JI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rC7Ir_l8Gd3Pa-SIc-JI-2" value="精排服务" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rC7Ir_l8Gd3Pa-SIc-JI-3" value="重排服务" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="730" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rC7Ir_l8Gd3Pa-SIc-JI-4" value="无量serving" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="130" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rC7Ir_l8Gd3Pa-SIc-JI-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=21;endSize=3.91;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="274" as="sourcePoint" />
+            <mxPoint x="580" y="214" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rC7Ir_l8Gd3Pa-SIc-JI-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=21;endSize=3.91;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="619" y="218" as="sourcePoint" />
+            <mxPoint x="619" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rC7Ir_l8Gd3Pa-SIc-JI-17" value="PID服务的调用时召回中做的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="237" y="428" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rC7Ir_l8Gd3Pa-SIc-JI-18" value="目前低峰期quota减小，召回中控请求到精排服务的batch增加，导致耗时增多" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="51" y="461" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rC7Ir_l8Gd3Pa-SIc-JI-19" value="按照700截断" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="300" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
