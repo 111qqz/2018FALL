@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-11T07:17:37.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="ouyAowbfO1KrAk7DkPzw" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-11T07:18:20.154Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.3" etag="RPyOBmuS-kWZiYJTnaTs" type="github">
   <diagram id="Ufr3TJWHK-SseM7DCaSE" name="第 1 页">
     <mxGraphModel dx="1434" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,8 +46,8 @@
         <mxCell id="-dpN-ugVuKMlQBBnJt2n-17" value="label0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="650" y="30" width="340" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="-dpN-ugVuKMlQBBnJt2n-18" value="训练，预测，保存模型，保存分数&lt;br&gt;（命名与seed_index,label_index,训练日期、seed相关)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="660" y="85" width="310" height="40" as="geometry" />
+        <mxCell id="-dpN-ugVuKMlQBBnJt2n-18" value="训练，预测，保存模型，保存分数&lt;br&gt;（命名与seed_index,label_index,训练日期、epoch相关)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="655" y="85" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="-dpN-ugVuKMlQBBnJt2n-21" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.424;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
