@@ -1,44 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T06:13:20.750Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WaZ8IMld0BeO0C9r2r9X" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T06:22:14.279Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jxV3-Pmli02VI7ixcuYR" version="21.6.1" type="github">
   <diagram name="第 1 页" id="VgBMnZDGhOuevuqgc2q4">
-    <mxGraphModel dx="1434" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="1812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xazf8YGlF5CI754crnG2-1" value="ai_queue_server" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="20" y="20" width="1132" height="607" as="geometry" />
+        <mxCell id="xazf8YGlF5CI754crnG2-1" value="ai_queue" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry y="-70" width="1152" height="677" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="192.2" y="10.77" width="287.8" height="90" as="geometry" />
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-2" value="RancherJobClient" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
-          <mxGeometry x="240" y="33" width="141" height="34" as="geometry" />
+          <mxGeometry x="244.24028268551234" y="36.80560131795717" width="143.4911660777385" height="37.92092257001647" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="50.8833922261484" y="133.83855024711698" width="1068.5512367491165" height="513.0477759472817" as="geometry" />
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-3" value="RancherJobServer" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
-          <mxGeometry x="238" y="136" width="144" height="34" as="geometry" />
+          <mxGeometry x="242.20494699646642" y="151.6836902800659" width="146.5441696113074" height="37.92092257001647" as="geometry" />
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-4" value="TaskQueue" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
-          <mxGeometry x="451" y="239" width="91" height="34" as="geometry" />
+          <mxGeometry x="458.9681978798586" y="266.5617792421746" width="92.6077738515901" height="37.92092257001647" as="geometry" />
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-5" value="ResourceUsageReporter" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
-          <mxGeometry x="639" y="342" width="184" height="34" as="geometry" />
+          <mxGeometry x="650.2897526501766" y="381.43986820428336" width="187.25088339222614" height="37.92092257001647" as="geometry" />
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-6" value="ResourceLimitManager" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
-          <mxGeometry x="429" y="445" width="177" height="34" as="geometry" />
+          <mxGeometry x="436.57950530035333" y="496.3179571663921" width="180.12720848056534" height="37.92092257001647" as="geometry" />
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-7" value="JobTracker" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
-          <mxGeometry x="304" y="342" width="94" height="34" as="geometry" />
+          <mxGeometry x="309.3710247349823" y="381.43986820428336" width="95.66077738515901" height="37.92092257001647" as="geometry" />
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-8" value="TaskValidator" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
-          <mxGeometry x="151" y="239" width="110" height="34" as="geometry" />
+          <mxGeometry x="153.66784452296818" y="266.5617792421746" width="111.94346289752649" height="37.92092257001647" as="geometry" />
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-9" value="ResouceAllocator" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
-          <mxGeometry x="698" y="548" width="139" height="34" as="geometry" />
+          <mxGeometry x="710.3321554770317" y="611.1960461285008" width="141.45583038869256" height="37.92092257001647" as="geometry" />
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-10" value="JobStatusHandler" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
-          <mxGeometry x="874" y="342" width="141" height="34" as="geometry" />
+          <mxGeometry x="889.4416961130742" y="381.43986820428336" width="143.4911660777385" height="37.92092257001647" as="geometry" />
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-11" value="TaskScheduler" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
-          <mxGeometry x="473" y="342" width="116" height="34" as="geometry" />
+          <mxGeometry x="481.3568904593639" y="381.43986820428336" width="118.0494699646643" height="37.92092257001647" as="geometry" />
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-12" value="DataBaseHandler" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
-          <mxGeometry x="875" y="445" width="138" height="34" as="geometry" />
+          <mxGeometry x="890.4593639575971" y="496.3179571663921" width="140.4381625441696" height="37.92092257001647" as="geometry" />
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-13" value="RPC请求" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.4980745789007092;exitY=1;entryX=0.5015869140625;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-2" target="xazf8YGlF5CI754crnG2-3">
           <mxGeometry relative="1" as="geometry">
@@ -48,87 +54,87 @@
         <mxCell id="xazf8YGlF5CI754crnG2-14" value="任务队列,按照一定条件进行消费" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.9287503107723166;exitY=1;entryX=0.5007941277472527;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-3" target="xazf8YGlF5CI754crnG2-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="497" y="205" />
+              <mxPoint x="505.78091872791515" y="228.64085667215815" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-15" value="定期报告用户资源使用情况" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=1.0029703776041667;exitY=0.76713652785055;entryX=0.48124332194491365;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-3" target="xazf8YGlF5CI754crnG2-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="720" y="205" />
-              <mxPoint x="720" y="308" />
+              <mxPoint x="732.7208480565371" y="228.64085667215815" />
+              <mxPoint x="732.7208480565371" y="343.5189456342669" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-16" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.00020345052083333334;exitY=0.9582872337659714;entryX=0.001853813559322034;entryY=0.2001643682332699;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-3" target="xazf8YGlF5CI754crnG2-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="72" y="205" />
-              <mxPoint x="72" y="411" />
+              <mxPoint x="73.2720848056537" y="228.64085667215815" />
+              <mxPoint x="73.2720848056537" y="458.39703459637565" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-17" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.5732494300751753;exitY=1;entryX=0.47009854788525096;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-3" target="xazf8YGlF5CI754crnG2-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="341" y="205" />
-              <mxPoint x="341" y="308" />
+              <mxPoint x="347.0247349823321" y="228.64085667215815" />
+              <mxPoint x="347.0247349823321" y="343.5189456342669" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-18" value="验证任务名称,资源额度是否合法" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.26390877304982474;exitY=1;entryX=0.5049538352272728;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-3" target="xazf8YGlF5CI754crnG2-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="207" y="205" />
+              <mxPoint x="210.6572438162544" y="228.64085667215815" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-19" value="根据用户资源利用率排名调整资源限额" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.5006620762711864;exitY=1;entryX=-0.0018261147917603417;entryY=0.07924454084587416;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-6" target="xazf8YGlF5CI754crnG2-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="518" y="514" />
+              <mxPoint x="527.1519434628975" y="573.2751235584843" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-20" value="任务状态处理逻辑" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=1.0022965315934067;exitY=0.6544470282254471;entryX=0.497478945035461;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-4" target="xazf8YGlF5CI754crnG2-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="944" y="308" />
+              <mxPoint x="960.6784452296819" y="343.5189456342669" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-21" value="将队列中的任务调度到rancher" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.6260896074495895;exitY=1;entryX=0.5009765625;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-4" target="xazf8YGlF5CI754crnG2-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="531" y="308" />
+              <mxPoint x="540.3816254416961" y="343.5189456342669" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-22" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.5009765625;exitY=1;entryX=0.525831687784543;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-11" target="xazf8YGlF5CI754crnG2-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="531" y="411" />
+              <mxPoint x="540.3816254416961" y="458.39703459637565" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-23" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=1.0022965315934067;exitY=0.7310162766445972;entryX=0.6179276511054246;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-4" target="xazf8YGlF5CI754crnG2-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="796" y="308" />
+              <mxPoint x="810.0636042402826" y="343.5189456342669" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-24" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.11262937590748522;exitY=1;entryX=0.6389191266402457;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-4" target="xazf8YGlF5CI754crnG2-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="390" y="308" />
+              <mxPoint x="396.8904593639576" y="343.5189456342669" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xazf8YGlF5CI754crnG2-25" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.5025050951086957;exitY=1;entryX=0.8994711103340465;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-5" target="xazf8YGlF5CI754crnG2-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="731" y="411" />
+              <mxPoint x="743.9151943462897" y="458.39703459637565" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -140,9 +146,15 @@
         <mxCell id="xazf8YGlF5CI754crnG2-27" value="提供历史任务资源利用率数据用于计算用户排名" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.5010473278985508;exitY=1;entryX=0.9172177163883656;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-12" target="xazf8YGlF5CI754crnG2-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="944" y="514" />
+              <mxPoint x="960.6784452296819" y="573.2751235584843" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Server&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="823.7809187279152" y="156.14497528830313" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-36" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Client&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="400.0009187279152" y="20.004975288303143" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
