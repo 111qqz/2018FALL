@@ -1,0 +1,36 @@
+
+graph TD
+  subgraph ai_queue_server
+    RancherJobClient(RancherJobClient)
+    RancherJobServer(RancherJobServer)
+    JobTracker(JobTracker)
+    ResourceLimitManager(ResourceLimitManager)
+    ResouceAllocator(ResouceAllocator)
+    ResourceUsageReporter(ResourceUsageReporter)
+    TaskValidator(TaskValidator)
+    TaskQueue(TaskQueue)
+    JobStatusHandler(JobStatusHandler)
+    TaskScheduler(TaskScheduler)
+    DataBaseHandler(DataBaseHandler)
+
+    RancherJobClient ==> | RPC请求 |RancherJobServer
+    RancherJobServer ==> | 任务队列,按照一定条件进行消费|TaskQueue
+    RancherJobServer ==> | 定期报告用户资源使用情况 | ResourceUsageReporter
+    RancherJobServer ==> ResourceLimitManager
+
+
+    RancherJobServer ==> JobTracker
+    RancherJobServer ==> |  验证任务名称,资源额度是否合法 |TaskValidator
+    
+
+    ResourceLimitManager ==> | 根据用户资源利用率排名调整资源限额| ResouceAllocator
+    TaskQueue ==> |任务状态处理逻辑| JobStatusHandler
+    TaskQueue ==> | 将队列中的任务调度到rancher|TaskScheduler
+    TaskScheduler ==> ResourceLimitManager
+    TaskQueue ==>  ResourceUsageReporter
+    TaskQueue ==> JobTracker
+
+    ResourceUsageReporter ==> ResourceLimitManager
+    JobStatusHandler ==> |任务结束后相关信息存入数据库| DataBaseHandler
+    DataBaseHandler ==> | 提供历史任务资源利用率数据用于计算用户排名| ResouceAllocator 
+end
