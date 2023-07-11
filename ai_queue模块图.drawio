@@ -1,9 +1,149 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T02:13:34.218Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.1" etag="C0TD92VvrA33KbWkSS7G" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T06:13:20.750Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WaZ8IMld0BeO0C9r2r9X" version="21.6.1" type="github">
   <diagram name="第 1 页" id="VgBMnZDGhOuevuqgc2q4">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xazf8YGlF5CI754crnG2-1" value="ai_queue_server" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1132" height="607" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-2" value="RancherJobClient" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="240" y="33" width="141" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-3" value="RancherJobServer" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="238" y="136" width="144" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-4" value="TaskQueue" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="451" y="239" width="91" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-5" value="ResourceUsageReporter" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="639" y="342" width="184" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-6" value="ResourceLimitManager" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="429" y="445" width="177" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-7" value="JobTracker" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="304" y="342" width="94" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-8" value="TaskValidator" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="151" y="239" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-9" value="ResouceAllocator" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="698" y="548" width="139" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-10" value="JobStatusHandler" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="874" y="342" width="141" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-11" value="TaskScheduler" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="473" y="342" width="116" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-12" value="DataBaseHandler" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="xazf8YGlF5CI754crnG2-1">
+          <mxGeometry x="875" y="445" width="138" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-13" value="RPC请求" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.4980745789007092;exitY=1;entryX=0.5015869140625;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-2" target="xazf8YGlF5CI754crnG2-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-14" value="任务队列,按照一定条件进行消费" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.9287503107723166;exitY=1;entryX=0.5007941277472527;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-3" target="xazf8YGlF5CI754crnG2-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="497" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-15" value="定期报告用户资源使用情况" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=1.0029703776041667;exitY=0.76713652785055;entryX=0.48124332194491365;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-3" target="xazf8YGlF5CI754crnG2-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="205" />
+              <mxPoint x="720" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-16" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.00020345052083333334;exitY=0.9582872337659714;entryX=0.001853813559322034;entryY=0.2001643682332699;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-3" target="xazf8YGlF5CI754crnG2-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="72" y="205" />
+              <mxPoint x="72" y="411" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-17" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.5732494300751753;exitY=1;entryX=0.47009854788525096;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-3" target="xazf8YGlF5CI754crnG2-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="341" y="205" />
+              <mxPoint x="341" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-18" value="验证任务名称,资源额度是否合法" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.26390877304982474;exitY=1;entryX=0.5049538352272728;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-3" target="xazf8YGlF5CI754crnG2-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-19" value="根据用户资源利用率排名调整资源限额" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.5006620762711864;exitY=1;entryX=-0.0018261147917603417;entryY=0.07924454084587416;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-6" target="xazf8YGlF5CI754crnG2-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="518" y="514" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-20" value="任务状态处理逻辑" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=1.0022965315934067;exitY=0.6544470282254471;entryX=0.497478945035461;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-4" target="xazf8YGlF5CI754crnG2-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="944" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-21" value="将队列中的任务调度到rancher" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.6260896074495895;exitY=1;entryX=0.5009765625;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-4" target="xazf8YGlF5CI754crnG2-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="531" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-22" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.5009765625;exitY=1;entryX=0.525831687784543;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-11" target="xazf8YGlF5CI754crnG2-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="531" y="411" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-23" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=1.0022965315934067;exitY=0.7310162766445972;entryX=0.6179276511054246;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-4" target="xazf8YGlF5CI754crnG2-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="796" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-24" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.11262937590748522;exitY=1;entryX=0.6389191266402457;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-4" target="xazf8YGlF5CI754crnG2-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-25" value="" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.5025050951086957;exitY=1;entryX=0.8994711103340465;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-5" target="xazf8YGlF5CI754crnG2-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="731" y="411" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-26" value="任务结束后相关信息存入数据库" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.497478945035461;exitY=1;entryX=0.5010473278985508;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-10" target="xazf8YGlF5CI754crnG2-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xazf8YGlF5CI754crnG2-27" value="提供历史任务资源利用率数据用于计算用户排名" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0.5010473278985508;exitY=1;entryX=0.9172177163883656;entryY=0;rounded=0;" edge="1" parent="xazf8YGlF5CI754crnG2-1" source="xazf8YGlF5CI754crnG2-12" target="xazf8YGlF5CI754crnG2-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="944" y="514" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
