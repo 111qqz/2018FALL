@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T09:08:18.967Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="A378XN8ofFQzBTHDtmbe" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-12T09:09:16.778Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="N0JRe1pVKSR-ITFYQcKX" version="21.6.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -74,6 +74,15 @@
               <mxPoint x="468" y="683" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="NC1nszj1qLwjYDj_4nPA-19" value="截图占位符" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="858" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NC1nszj1qLwjYDj_4nPA-20" value="截图占位符" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="500" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NC1nszj1qLwjYDj_4nPA-21" value="截图占位符" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="1320" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
